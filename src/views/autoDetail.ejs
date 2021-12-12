@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include('./partials/head.ejs') %> 
+<body>
+    <%- include('./partials/header.ejs') %> 
+    <main class="container" style="height: 100vh;">
+        <h2 class="text-center">Estas viendo el detalle del auto <%= auto.marca %> <%= auto.modelo %>  </h2>
+        <p>Año: <%= auto.anio %></p>
+        <p>Color: <%= auto.color %></p>
+    </main>
+    <%- include('./partials/scripts.ejs') %> 
+    <%- include('./partials/footer.ejs') %> 
+</body>
+</html>
